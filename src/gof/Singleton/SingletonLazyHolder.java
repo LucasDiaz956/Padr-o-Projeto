@@ -1,3 +1,4 @@
+package Singleton;
 
 
 public class SingletonLazyHolder {
@@ -5,7 +6,7 @@ public class SingletonLazyHolder {
     private static class Holder {
         public static SingletonLazyHolder instancia = new SingletonLazyHolder();
     }
-    
+
     private SingletonLazyHolder() {
         super();
     }
